@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>home page</title>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <form action="logout">
+            {% csrf_token %}
+            <input type="submit" value="Signout">
+        </form>
+    </body>
+</html>
